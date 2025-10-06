@@ -19,5 +19,9 @@ int main(){
 	cout << "Hello world";
 	//Nhap du lieu tu ban phim
 	cin >> So1;
+	//Khai bao hang so PI = 3.14
+	const double PI = 3.14;
+	//Khai bao bien co kieu du lieu bool
+	bool TrueOrFalse = true;
 	return 0;
 }

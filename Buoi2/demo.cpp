@@ -7,7 +7,7 @@ int main() {
     cout << "Hom nay la thu may: ";
     cin >> thu;
     //Kiem tra hom nay la thu may
-    if(thu == 2){.
+    if(thu == 2){
     	//Thuc hien khi thu == 2 tra ve true
         cout << "Hoc C++";
     } else if(thu == 3 || thu == 5){
