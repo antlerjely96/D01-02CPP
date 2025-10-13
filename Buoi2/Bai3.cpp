@@ -20,23 +20,26 @@ int main(){
 	cout << "Nhap tuoi: ";
 	cin >> tuoi;
 	//Kiem tra
-	if(tuoi > 0 && tuoi < 6){
+	if(tuoi < 0){
+		cout << "Nhap sai" << endl;
+	}
+	else if(tuoi < 6){
 		//Thuc hien khi dieu kien tuoi > 0 && tuoi < 6 tra ve true
 		cout << "Hoc mau giao" << endl;
-	} else if (tuoi >= 6 && tuoi < 11){
+	} else if (tuoi < 11){
 		/* Thuc hien khi:
 			tuoi > 0 && tuoi < 6 tra ve false
 			tuoi >= 6 && tuoi < 11 tra ve true
 		*/
 		cout << "Hoc cap 1" << endl;
-	} else if(tuoi >= 11 && tuoi < 16){
+	} else if(tuoi < 16){
 		/* Thuc hien khi:
 			tuoi > 0 && tuoi < 6 tra ve false
 			tuoi >= 6 && tuoi < 11 tra ve false
 			tuoi >= 11 && tuoi < 16 tra ve true
 		*/
 		cout << "Hoc cap 2" << endl;
-	} else if(tuoi >= 16 && tuoi < 18){
+	} else if(tuoi < 18){
 		/* Thuc hien khi:
 			tuoi > 0 && tuoi < 6 tra ve false
 			tuoi >= 6 && tuoi < 11 tra ve false
@@ -44,7 +47,7 @@ int main(){
 			tuoi >= 16 && tuoi < 18 tra ve true
 		*/
 		cout << "Hoc cap 3" << endl;
-	} else if(tuoi >= 18 && tuoi < 23){
+	} else if(tuoi < 23){
 		/* Thuc hien khi:
 			tuoi > 0 && tuoi < 6 tra ve false
 			tuoi >= 6 && tuoi < 11 tra ve false
@@ -53,7 +56,7 @@ int main(){
 			tuoi >= 18 && tuoi < 23 tra ve true
 		*/
 		cout << "Hoc dai hoc" << endl;
-	} else if(tuoi >= 23 && tuoi <= 65){
+	} else if(tuoi <= 65){
 		/* Thuc hien khi:
 			tuoi > 0 && tuoi < 6 tra ve false
 			tuoi >= 6 && tuoi < 11 tra ve false
