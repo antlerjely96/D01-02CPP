@@ -17,7 +17,7 @@ int main (){
 			for (n = j; n <= k; n++){
 				cout << n << "\t";
 			}
-		}else{
+		} else {
 		    for (n = k; n >= j; n--){
 		    	cout << n << "\t";
 			}
