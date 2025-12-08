@@ -37,7 +37,7 @@ int main(){
 	for(int i = 0; i < k; i++){
 		temp[i] = arr[i];
 	}
-	for(int i = k; i < n - 1; i++){
+	for(int i = k; i < n; i++){
 		temp[i] = arr[i + 1];
 	}
 	//In ra
