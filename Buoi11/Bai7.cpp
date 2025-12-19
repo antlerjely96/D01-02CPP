@@ -12,6 +12,9 @@
 
 #include <iostream>
 using namespace std;
+//Bien toan cuc
+double PI = 3.14;
+
 //Nhap cac canh
 double nhapCanh(){
 	double n;
@@ -44,8 +47,8 @@ void hinhVuong(){
 void hinhTron(){
 	cout << "Ban kinh: ";
 	double banKinh = nhapCanh();
-	cout << "Chu vi: " << banKinh * 2 * 3.14 << endl;
-	cout << "Dien tich: " << banKinh * banKinh * 3.14 << endl;
+	cout << "Chu vi: " << banKinh * 2 * PI << endl;
+	cout << "Dien tich: " << banKinh * banKinh * PI << endl;
 }
 int main(){
 	cout << "- Menu -" << endl;
